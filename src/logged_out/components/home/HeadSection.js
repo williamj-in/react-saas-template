@@ -123,7 +123,8 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Voicers - A Landing Page for BGEA
+                          Free Template for building an SaaS app using
+                          Material-UI
                         </Typography>
                       </Box>
                       <div>
