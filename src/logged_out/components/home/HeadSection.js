@@ -95,7 +95,28 @@ function HeadSection(props) {
       <div className={classNames('lg-p-top', classes.wrapper)}>
         <div className={classNames('container-fluid', classes.container)}>
           <Box display="flex" justifyContent="center" className="row">
-            <Card className={classes.card} data-aos-delay="200" data-aos="zoom-in">
+            <Typography variant={'h1'} style={{ color: '#4f0dd2' }}>
+              Voicers
+            </Typography>
+            <Box mb={4} mt={10} mr={10} ml={10}>
+              <Typography variant={'h6'} style={{ color: '#f7f7f7', fontWeight: '400' }}>
+                Voicers is a landing page designed and developed for Black Girls Equity Alliance (BGEA). The BGEA
+                Currently has four workgroups which focus on improving the outcomes for Black girls in child welfare,
+                juvenile justice, education, and health and wellness.
+              </Typography>
+            </Box>
+            <Button
+              variant="contained"
+              // color="secondary"
+              // fullWidth
+              className={classes.extraLargeButton}
+              classes={{ label: classes.extraLargeButtonLabel }}
+              href="https://www.gwensgirls.org/bgea/"
+            >
+              Learn More
+            </Button>
+
+            {/* <Card className={classes.card} data-aos-delay="200" data-aos="zoom-in">
               <div className={classNames(classes.containerFix, 'container')}>
                 <Box justifyContent="space-between" className="row">
                   <Grid item xs={12} md={5}>
@@ -134,7 +155,7 @@ function HeadSection(props) {
                   </Hidden>
                 </Box>
               </div>
-            </Card>
+            </Card> */}
           </Box>
         </div>
       </div>
